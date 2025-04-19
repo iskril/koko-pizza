@@ -1,13 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>koko pizza</title>
+    <title>Koko Pizza</title>
 </head>
+
 <body>
-    
+    <div class="container df">
+        <header class="header">
+            <nav class="menu">
+                <div class="logo">
+                    <a href="#"><img src="img/logo.png" alt="image logo"></a>
+                </div>
+                <ul class="menu__list">
+                    <li class="menu__item"><a href="#">pizzas</a></li>
+                    <li class="menu__item"><a href="#">delivery</a></li>
+                    <li class="menu__item"><a href="#">contacts</a></li>
+                    <li class="menu__item"><a href="#">order</a></li>
+                </ul>
+            </nav>
+            <h1 class="title">Hot mood in every box!</h1>
+            <ul class="list">
+                <li class="list__text"><img src="img/icons8.svg">30% OFF all pizzas! – Hurry, offer ends at 8 PM!</li>
+                <li class="list__text"><img src="img/icons8.svg">FREE delivery on orders over 25$ – Order now and save!</li>
+                <li class="list__text"><img src="img/icons8.svg">2 pizzas for the price of 1 – Exclusive deal for loyal customers!</li>
+            </ul>
+            <button class="btn mb20">Order</button>
+        </header>
+        <div class="bg"></div>
+    </div>
+
+    <section class="pizzas">
+        <div class="pizzas__grid container">
+            <div class="pizzas__column"><img src="img/pizza1.png"></div>
+            <div class="pizzas__column">
+                <ul class="list">
+                    <li class="list__text text_color_primary"><img src="img/icons8.svg"> OFF all pizzas! – Hurry, offer ends at 8 PM!</li>
+                    <li class="list__text text_color_primary"><img src="img/icons8.svg">FREE delivery on orders over 25$ – Order now and save!</li>
+                    <li class="list__text text_color_primary"><img src="img/icons8.svg">2 pizzas for the price of 1 – Exclusive deal for loyal customers!</li>
+                    <li class="list__text text_color_primary"><img src="img/icons8.svg">2 pizzas for the price of 1 – Exclusive deal for loyal customers!</li>
+                    <button class="btn">Order</button>
+                </ul>
+            </div>
+            <div class="pizzas__column"><img src="img/pizza2.png"></div>
+        </div>
+    </section>
     <script src="script.js"></script>
 </body>
+
 </html>
