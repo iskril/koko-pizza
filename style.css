@@ -344,14 +344,16 @@ body {
     border-radius: 3rem;
     border: 1px solid #93322c;
 }
-
+.feedback-form__decor {
+    position: relative;
+}
 .feedback-form__decor img {
     overflow: hidden;
     position: absolute;
     width: 60rem;
-    top: -45%;
-    left: 47%;
-    transform: translate(-41%, -44%);
+    top: 75%;
+    left: 46%;
+    transform: translate(-40%, -75%);
     z-index: 110;
 }
 
@@ -510,9 +512,9 @@ input:focus {
 @media (max-width: 768px) {
     .feedback-form__decor img {
         width: 45rem;
-        top: -38%;
+        top: 75%;
         left: 40%;
-        transform: translate(-35%, -40%);
+        transform: translate(-35%, -75%);
     }
 
     .pizzas__grid {
@@ -613,9 +615,9 @@ input:focus {
 @media (max-width: 500px) {
     .feedback-form__decor img {
         width: 30rem;
-        top: -34%;
+        top: 75%;
         left: 36.6%;
-        transform: translate(-33%, -31%);
+        transform: translate(-33%, -75%);
     }
 
     .form-title {
