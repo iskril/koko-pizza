@@ -9,12 +9,11 @@
 </head>
 
 <body>
-
     <div class="container df">
         <header class="header">
             <button class="burger" aria-label="Меню">
                 <span class="burger__line"></span>
-              </button>
+            </button>
             <div class="menu-wrapper">
                 <div class="container">
                     <nav class="menu">
@@ -22,49 +21,108 @@
                             <a href="#"><img src="img/logo.png" alt="image logo"></a>
                         </div>
                         <ul class="menu__list">
-                            <li class="menu__item"><a href="#">pizzas</a></li>
-                            <li class="menu__item"><a href="#">delivery</a></li>
-                            <li class="menu__item"><a href="#">contacts</a></li>
-                            <li class="menu__item"><a href="#">order</a></li>
+                            <li class="menu__item"><a href="#anchor1" class="anchor-link">contacts</a></li>
+                            <li class="menu__item"><a href="#anchor" class="anchor-link">order</a></li>
                         </ul>
                     </nav>
                 </div>
-                
             </div>
-            
             <h1 class="title">Hot mood in every box!</h1>
             <ul class="list">
-                <li class="list__text"><img src="img/icons8.svg">30% OFF all pizzas! – Hurry, offer ends at 8 PM!</li>
-                <li class="list__text"><img src="img/icons8.svg">FREE delivery on orders over 25$ – Order now and save!
+                <li class="list__text"><img src="img/icons8.svg" alt="icon">30% OFF all pizzas! – Hurry, offer ends at 8
+                    PM!</li>
+                <li class="list__text"><img src="img/icons8.svg" alt="icon">FREE delivery on orders over 25$ – Order now
+                    and save!
                 </li>
-                <li class="list__text"><img src="img/icons8.svg">2 pizzas for the price of 1 – Exclusive deal for loyal
+                <li class="list__text"><img src="img/icons8.svg" alt="icon">2 pizzas for the price of 1 – Exclusive deal
+                    for loyal
                     customers!</li>
             </ul>
-            <button class="btn mb20">Order</button>
-
+            <button class="btn mb20"></a>Order</button>
         </header>
-        <div class="bg"></div>
+        <div class="banner"></div>
     </div>
-
     <section class="pizzas">
         <div class="pizzas__grid container">
-            <div class="pizzas__column"><img class="pizzas__column-img" src="img/pizza1.png"></div>
+            <div class="pizzas__column"><img class="pizzas__column-img" src="img/pizza1.png" alt="decor image"></div>
             <div class="pizzas__column">
                 <ul class="list">
-                    <li class="list__text text_color_primary"><img src="img/icons8.svg"> OFF all pizzas! – Hurry, offer
-                        ends at 8 PM!</li>
-                    <li class="list__text text_color_primary"><img src="img/icons8.svg">FREE delivery on orders over 25$
-                        – Order now and save!</li>
-                    <li class="list__text text_color_primary"><img src="img/icons8.svg">2 pizzas for the price of 1 –
-                        Exclusive deal for loyal customers!</li>
-                    <li class="list__text text_color_primary"><img src="img/icons8.svg">2 pizzas for the price of 1 –
-                        Exclusive deal for loyal customers!</li>
+                    <li class="list__text text_color_primary"><img src="img/icons8.svg" alt="icon">"Pepperoni XXL" –
+                        Spicy, with double pepperoni for an extra kick!</li>
+                    <li class="list__text text_color_primary"><img src="img/icons8.svg" alt="icon">"Margherita" – A
+                        classic with fresh basil pesto and melted mozzarella.</li>
+                    <li class="list__text text_color_primary"><img src="img/icons8.svg" alt="icon">"Four Cheeses" - A
+                        creamy blend of cream cheese, gorgonzola, parmesan, and mozzarella</li>
+                    <li class="list__text text_color_primary"><img src="img/icons8.svg" alt="icon">"Hawaiian" - Juicy
+                        chicken with sweet pineapples</li>
                     <button class="btn">Order</button>
                 </ul>
             </div>
-            <div class="pizzas__column"><img class="pizzas__column-img" src="img/pizza2.png"></div>
+            <div class="pizzas__column"><img class="pizzas__column-img" src="img/pizza2.png" alt="decor image"></div>
         </div>
     </section>
+    <section class="form" id="anchor">
+        <div class="feedback-form__decor"><img src="img/form.png" alt="decor image"></div>
+        <form class="feedback-form container">
+            <h2 class="form-title">Fill out the form</h2>
+            <div class="form-group">
+                <label for="name"></label>
+                <input type="text" id="name" name="name" placeholder="Name" required>
+            </div>
+            <div class="form-group">
+                <label for="email"></label>
+                <input type="email" id="email" name="email" placeholder="E-mail" required>
+            </div>
+            <div class="form-group checkbox-group">
+                <input class="checkbox" type="checkbox" id="agree" name="agree" required>
+                <label for="agree">I accept Privacy policy</label>
+            </div>
+            <button class="btn btn-form" type="submit">Submit form</button>
+        </form>
+    </section>
+    <footer class="footer">
+        <div class="footer__grid container">
+            <div class="footer__column">
+                <div class="logo">
+                    <a href="#"><img src="img/logo.png" alt="image logo"></a>
+                </div>
+                <span class="copyright">© 2025, Copyright</span>
+            </div>
+            <div class="footer__column">
+                <div class="social" id="anchor1">
+                    <ul class="social__list">
+                        <li class="social__item">
+                            <a class="social__link" href="#" target="_blank">
+                                <img class="social__img fb" src="img/social/facebook.svg" alt="icon facebook">
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a class="social__link" href="#" target="_blank">
+                                <img class="social__img linkedin" src="img/social/linkedin.svg" alt="icon linkedin">
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a class="social__link" href="#" target="_blank">
+                                <img class="social__img tg" src="img/social/telegram.svg" alt="icon telegram">
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a class="social__link" href="#" target="_blank">
+                                <img class="social__img youtube" src="img/social/youtube.svg" alt="icon youtube">
+                            </a>
+                        </li>
+                    </ul>
+                    <a class="policy" href="#">Privacy policy</a>
+                </div>
+            </div>
+            <div class="footer__column">
+                <div class="wrapper">
+                    <button class="btn">Order</button>
+                    <a class="use" href="#">Terms of Use</a>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="script.js"></script>
 </body>
 
